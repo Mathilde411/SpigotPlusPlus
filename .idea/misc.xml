@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/include/linux" />
+      <file path="$PROJECT_DIR$/src/cpp" />
+    </sourceRoots>
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/.gradle" />
+      <file path="$PROJECT_DIR$/CMake" />
+      <file path="$PROJECT_DIR$/build" />
+    </excludeRoots>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
