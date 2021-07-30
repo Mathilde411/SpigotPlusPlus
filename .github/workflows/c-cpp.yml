@@ -18,6 +18,6 @@ jobs:
     - name: Test
       run: sudo apt-cache search aarch64-linux-gnu
     - name: Install Dependencies
-      run: sudo apt install -y make cmake gcc-multilib g++-multilib gcc gcc-mingw-w64 gcc-arm-linux-gnueabi gcc-aarch64-linux-gnu g++ g++-mingw-w64 g++-arm-linux-gnueabi g++-aarch64-linux-gnu binutils binutils-mingw-w64 binutils-arm-linux-gnueabi binutils-aarch64-linux-gnu openjdk-16-jdk
+      run: sudo apt install -y make cmake gcc-multilib g++-multilib gcc gcc-mingw-w64 gcc-9-arm-linux-gnueabi gcc-9-aarch64-linux-gnu g++ g++-mingw-w64 g++-9-arm-linux-gnueabi g++-9-aarch64-linux-gnu binutils binutils-mingw-w64 binutils-9-arm-linux-gnueabi binutils-9-aarch64-linux-gnu openjdk-16-jdk
     - name: make
       run: make
