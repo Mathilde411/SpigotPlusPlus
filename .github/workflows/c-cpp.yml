@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install Dependencies
-      run: sudo apt-get install -y make cmake gcc gcc-mingw-w64 gcc-arm-linux-gnueabi gcc-aarch64-linux-gnu g++ g++-mingw-w64 g++-arm-linux-gnueabi g++-aarch64-linux-gnu binutils binutils-mingw-w64 binutils-arm-linux-gnueabi binutils-aarch64-linux-gnu openjdk-16-jdk
+      run: sudo apt-get install -y make cmake gcc-multilib g++-multilib gcc gcc-mingw-w64 gcc-arm-linux-gnueabi gcc-aarch64-linux-gnu g++ g++-mingw-w64 g++-arm-linux-gnueabi g++-aarch64-linux-gnu binutils binutils-mingw-w64 binutils-arm-linux-gnueabi binutils-aarch64-linux-gnu openjdk-16-jdk
     - name: make
       run: make
